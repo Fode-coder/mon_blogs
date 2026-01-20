@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Titre SEO -->
+    <title>Fodé Keita | Développeur, Projets Tech et Création de Solutions</title>
+
+    <!-- Description SEO -->
+    <meta name="description"
+        content="Fodé Keita – Passionné par la technologie, l'apprentissage et la création de solutions concrètes pour les entreprises. Découvrez mes projets, vidéos pédagogiques et outils tech.">
+
+    <!-- Mots-clés SEO -->
+    <meta name="keywords"
+        content="Fodé Keita, développeur, programmation, data, Excel, outils pour entreprises, entrepreneuriat tech, projets tech, vidéos pédagogiques">
+
+    <!-- Open Graph (Facebook, LinkedIn, etc.) -->
+    <meta property="og:title" content="Fodé Keita | Développeur, Projets Tech et Création de Solutions">
+    <meta property="og:description"
+        content="Découvrez mes projets, vidéos pédagogiques et outils technologiques pour les entreprises.">
+    <meta property="og:image" content="assets/images/logo.svg">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ton-site.netlify.app">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Fodé Keita | Développeur, Projets Tech et Création de Solutions">
+    <meta name="twitter:description"
+        content="Découvrez mes projets, vidéos pédagogiques et outils technologiques pour les entreprises.">
+    <meta name="twitter:image" content="assets/images/logo.svg">
+
+    <!-- CSS & Fonts -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+</head>
+
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <!-- Logo avec image personnalisée -->
+            <a href="#accueil" class="logo">
+                <div class="logo-image-container">
+                    <img src="assets/images/logo.png" alt="Logo Fodé Keita" class="logo-image"
+                        onerror="this.style.display='none'; document.querySelector('.logo-fallback').style.display='flex';">
+                    <div class="logo-fallback">FK</div>
+                </div>
+                <span class="logo-text">Fodé Keita</span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+                <li><a href="#apropos" class="nav-link">À propos</a></li>
+                <li><a href="#projets" class="nav-link">Projets</a></li>
+                <li><a href="#contenus" class="nav-link">Contenus</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Section Hero / Accueil -->
+    <section id="accueil" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Fodé Keita</span>
+                    <span class="hero-subtitle">Passionné de Tech et Création de Solutions</span>
+                </h1>
+                <p class="hero-description">
+                    Passionné par la programmation, l'analyse de données et la création de solutions pour entreprises.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+                    <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-snippet">
+                    <div class="code-header">
+                        <div class="code-dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <span class="code-title">solution.py</span>
+                    </div>
+                    <pre class="code-content"><code>def creer_des_solutions(besoins_clients):
+    """Transforme les besoins clients en solutions efficaces"""
+    analyse = analyze_de_donne(besoins_clients)
+    solutions = developper_des_outils(analyse)
+    resultats = implementation_des_solution(solutions)
+    return optimiser_performance(results)</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="apropos" class="section about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Qui suis-je</h2>
+                <p class="section-subtitle">Passionné par la tech et la création de solutions</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Transformer les défis en opportunités grâce à la technologie</h3>
+                    <p>Je suis Fodé Keita, passionné par la technologie et la création de solutions concrètes pour les
+                        entreprises.
+                        J’explore constamment de nouvelles compétences en programmation et en analyse de données pour
+                        transformer
+                        les idées en projets tangibles.</p>
+                    <p>Mon approche combine curiosité et créativité, ce qui me permet de développer des outils utiles et
+                        innovants,
+                        conçus pour résoudre des problèmes réels et apporter de la valeur aux entreprises, même en
+                        continuant d’apprendre chaque jour.</p>
+
+
+                    <div class="expertise">
+                        <h4>Ce que j’explore</h4>
+                        <div class="expertise-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Développement Web</span>
+                            <span class="tag">Analyse de données</span>
+                            <span class="tag">Excel avancé</span>
+                            <span class="tag">Mathématiques appliquées</span>
+                            <span class="tag">Création d'outils pour entreprises</span>
+                            <span class="tag">Apprentissage et formation technique</span>
+                            <span class="tag">Entrepreneuriat tech</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number" data-count="50">2</div>
+                        <div class="stat-label">Projets réalisés</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-count="15">1</div>
+                        <div class="stat-label">Solutions d'entreprise</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="section projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mes Projets</h2>
+                <p class="section-subtitle">Solutions concrètes avec impact business</p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="project-title">GENERATION DE RAPPORTS AUTOMATIQUE</h3>
+                    <p class="project-description">Mon outil génère automatiquement des rapports détaillés pour les
+                        entreprises, en analysant les données clés de chaque secteur. Il met en avant les produits
+                        phares, les tendances et fournit des graphiques clairs pour une prise de décision rapide. Simple
+                        et efficace, il transforme vos données brutes en informations stratégiques prêtes à l’emploi.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tech-tag">Python</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3 class="project-title">Modélisation Epidémie - Model SIR </h3>
+                    <p class="project-description">Mon projet de modèle SIR permet de simuler et prédire la propagation
+                        des épidémies dans différentes populations. Il fournit des analyses claires des taux
+                        d’infection, de guérison et de susceptibilité, avec des visualisations faciles à comprendre.
+                        Grâce à cet outil, il devient possible de prendre des décisions éclairées pour la prévention et
+                        le contrôle des maladies</p>
+                    <div class="project-tags">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JS</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-footer">
+                <a href="#contact" class="btn btn-primary">Discuter d'un projet similaire</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contenus -->
+    <!-- Section Contenus -->
+    <section id="contenus" class="section contents">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contenus </h2>
+                <p class="section-subtitle">Partage de connaissances techniques sur YouTube</p>
+            </div>
+
+            <div class="video-grid">
+                <!-- Vidéo 6 -->
+                <div class="video-card">
+                    <a href="https://youtu.be/rvg-ZsAqInk?si=FL_FV4C1Qgi_OwdP" target="_blank" class="video-link">
+                        <div class="video-thumbnail">
+                            <!-- L'image se charge automatiquement depuis YouTube -->
+                            <img src="https://img.youtube.com/vi/rvg-ZsAqInk/maxresdefault.jpg"
+                                alt="Python pour l'analyse de données d'entreprise" class="thumbnail-image"
+                                loading="lazy"
+                                onerror="this.onerror=null; this.src='https://img.youtube.com/vi/rvg-ZsAqInk/hqdefault.jpg'">
+                            <div class="thumbnail-overlay">
+                                <div class="play-button">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                                <div class="video-duration">25:18</div>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="video-title">Apprendre Excel pour débutants - Les bases d'Excel</h3>
+                            <p class="video-description">Pour ce premier cours consacré à l’apprentissage du tableur
+                                Excel, nous allons découvrir ensemble les bases qu’il est nécessaire de maîtriser pour
+                                réaliser ses propres fichiers de travail, sans que la moindre connaissance ne soit
+                                requise. Nous allons ainsi découvrir l’interface d’Excel, puis nous allons voir comment
+                                construire notre premier tableau contenant des données avec une formule basic et une
+                                mise-en-forme elle aussi très sommaire.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="channel-cta">
+                <div class="cta-content">
+                    <h3><i class="fab fa-youtube"></i> Abonnez-vous à la chaîne</h3>
+                    <a href="https://www.youtube.com/@fodekeita" target="_blank" class="btn btn-youtube">
+                        <i class="fab fa-youtube"></i> S'abonner sur YouTube
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Section Services -->
+    <section id="services" class="section services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Services</h2>
+                <p class="section-subtitle">Solutions sur mesure pour votre entreprise</p>
+            </div>
+
+            <!--<div class="services-grid">
+                <div class="service-card">
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3 class="service-title">Développement sur mesure</h3>
+                    </div>
+                    <ul class="service-features">
+                        <li>Applications web et desktop</li>
+                        <li>Solutions d'automatisation</li>
+                        <li>Outils métier personnalisés</li>
+                        <li>Intégration de systèmes</li>
+                    </ul>
+                    <div class="service-footer">
+                        <span class="service-price">À partir de 1 500€</span>
+                        <a href="#contact" class="service-cta">Demander un devis</a>
+                    </div>
+                </div>
+
+                <div class="service-card highlighted">
+                    <div class="service-badge">Le plus demandé</div>
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <h3 class="service-title">Analyse & Data</h3>
+                    </div>
+                    <ul class="service-features">
+                        <li>Analyse de données business</li>
+                        <li>Tableaux de bord interactifs</li>
+                        <li>Automatisation de rapports</li>
+                        <li>Formation Excel/Python avancé</li>
+                    </ul>
+                    <div class="service-footer">
+                        <span class="service-price">À partir de 800€</span>
+                        <a href="#contact" class="service-cta">Discuter de vos besoins</a>
+                    </div>
+                </div>-->
+
+            <div class="service-card">
+                <div class="service-header">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="service-title">ANALYSE DE DONNEES</h3>
+                </div>
+                <ul class="service-features">
+                    <li>Gestion des données"</li>
+                    <li>générer de rapport automatique"</li>
+                    <li>recommandation</li>
+
+                </ul>
+                <div class="service-footer">
+                    <span class="service-price">À partir de 10000 FCFA</span>
+                    <a href="#contact" class="service-cta">Planifier une session</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact</h2>
+                <p class="section-subtitle">Discutons de votre projet ou collaboration</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Travaillons ensemble</h3>
+                    <p>Que vous ayez besoin d'une solution technique, d'une expertise en analyse de données, ou que vous
+                        souhaitiez former votre équipe, je suis à votre écoute.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>fodeuniverse@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Disponibilité</h4>
+                                <p>Tous les jours</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Zone géographique</h4>
+                                <p>SENEGAL</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/fode_universe?igsh=MXB2eGNrdTVzbzl1cg==" target="_blank"
+                            class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://tiktok.com/@fodeuniverse" target="_blank" class="social-link">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@fode-u3r" target="_blank" class="social-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://www.facebook.com/profil.php?id=61574480813459" target="_blank"
+                            class="social-link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nom complet</label>
+                        <input type="text" id="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email professionnel</label>
+                        <input type="email" id="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="company">Entreprise (optionnel)</label>
+                        <input type="text" id="company">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Service intéressé</label>
+                        <select id="service" required>
+                            <option value="">Sélectionnez une option</option>
+                            <option value="development">analyse de donnée"</option>
+                            <option value="data">Site internet personnalisés</option>
+                            <option value="training">collaboration</option>
+                            <option value="other">Autre projet</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Détails du projet</label>
+                        <textarea id="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <!-- Logo avec image personnalisée -->
+                    <a href="#accueil" class="logo">
+                        <div class="logo-image-container">
+                            <img src="assets/images/logo.png" alt="Logo Fodé Keita" class="logo-image"
+                                onerror="this.style.display='none'; document.querySelector('.logo-fallback').style.display='flex';">
+                            <div class="logo-fallback">FK</div>
+                        </div>
+                        <span class="logo-text">Fodé Keita</span>
+                    </a>
+                </div>
+
+                <p class="footer-tagline">Créateur de solutions technologiques pour entreprises</p>
+
+                <div class="footer-links">
+                    <a href="#accueil">Accueil</a>
+                    <a href="#apropos">À propos</a>
+                    <a href="#projets">Projets</a>
+                    <a href="#contenus">Contenus</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <p class="footer-copyright">© 2026 Fodé Keita. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script src="email.js"></script>
+</body>
+
+</html>
